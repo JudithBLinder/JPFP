@@ -3,6 +3,6 @@ const startServer = require('./http/index');
 
 const PORT = process.env.PORT || 3000;
 
-syncAndSeed({ force: true })
+syncAndSeed({ force: false })
   .then(startServer(PORT))
   .catch((e) => console.log(e));
