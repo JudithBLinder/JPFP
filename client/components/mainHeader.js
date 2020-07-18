@@ -5,7 +5,7 @@ const MainHeader = () => {
   return (
     <div className="mainHeaderContainer">
       <div className="headerContainer">
-        <img src="https://lh3.googleusercontent.com/proxy/y1dLvREkGeVlr3-BpBf61uY0yZTmxWOgUlCNGL_l7CfDHr-NSNfHZ2npkc0ZLyza_RcNA6tSIA6nsgYnyaUJ09Gv5U9Ob74" />
+        <img src="https://cdn3.iconfinder.com/data/icons/hand-drawn-mix-i/200/education-512.png" />
         <Link to="/home">ACME SCHOOLS</Link>
       </div>
       <h1>JB JPFP</h1>
