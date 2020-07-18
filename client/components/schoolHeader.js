@@ -51,7 +51,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     handleChange: (ev) => {
-      console.log(ev.target);
       axios
         .put(`/api/students/${ev.target.value}`, {
           schoolId: ev.target.id,

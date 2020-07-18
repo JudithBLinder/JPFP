@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import axios from 'axios';
 import { setStudents } from '../actions';
 
-// Schools component. Incharge of displaying all the schools in the DB.
+// Schools component. In charge of displaying all the schools in the DB.
 class Schools extends Component {
   constructor({ schools }) {
     super();
@@ -118,7 +118,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     handleChange: (ev) => {
-      console.log(ev.target.id, ev.target.value);
       axios
         .put(`/api/students/${ev.target.value}`, {
           schoolId: ev.target.id,
